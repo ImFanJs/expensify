@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --watch",
+    "test": "jest",
     "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
     "dev-server": "webpack-dev-server"
   },
@@ -19,6 +20,7 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "css-loader": "^0.28.7",
+    "jest": "^21.2.1",
     "moment": "^2.19.1",
     "node-sass": "^4.5.3",
     "normalize.css": "^7.0.0",
